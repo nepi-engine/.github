@@ -1,9 +1,9 @@
 # NEPI-Engine
 This repository contains documentation and tools for getting started with NEPI Engine, a full-featured edge-AI and automation software platform for NVIDIA Jetson and other embedded edge-compute hardware platforms.
 
-**[Learn more about NEPI Engine](https://numurus.com/)**
-
 **[Request access to the NEPI Engine Source-Code Repositories](https://nepi.com/github/)**
+
+**[Learn more about NEPI Engine](https://numurus.com/)**
 
 ## Hardware and O/S Requirements
 NEPI Engine runs on lots of embedded Linux devices, though certain hardware and O/S configurations are more well-suited than others. In general, NVIDIA Jetson platforms are well tested and supported. The scripts and documentation in this repository are tailored for modern Debian-based Linux distributions (e.g., Ubuntu 18.04+); if that is not your situation, then NEPI _may_ still be appropriate wholly or in part, albeit with additional setup legwork.
