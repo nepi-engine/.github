@@ -3,6 +3,11 @@ This repository contains documentation and tools for getting started with NEPI E
 
 **[Learn more about NEPI Engine](https://nepi.com/)**
 
+## Get Involved
+The best way to get involved is to contribute to NEPI-Engine source code and documentation. Contributions in the form of pull requests are gladly accepted as long as we have a signed Contributor License Agreement from you or your organization. Just download the relevant agreement and follow the instructions:
+- [Individual CLA](https://numurus.com/wp-content/uploads/NEPI-Engine-Individual-Contributor-License-Agreement.pdf)
+- [Organization CLA](https://numurus.com/wp-content/uploads/NEPI-Engine-Organization-Contributor-License-Agreement.pdf)
+
 ## Hardware and O/S Requirements
 NEPI Engine runs on lots of embedded Linux devices, though certain hardware and O/S configurations are more well-suited than others. In general, NVIDIA Jetson platforms are well tested and supported. The scripts and documentation in this repository are tailored for modern Debian-based Linux distributions (e.g., Ubuntu 18.04+); if that is not your situation, then NEPI _may_ still be appropriate wholly or in part, albeit with additional setup legwork.
 
