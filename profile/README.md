@@ -2,6 +2,11 @@
 This repository contains documentation and tools for getting started with NEPI Engine, a full-featured edge-AI and automation software platform for NVIDIA Jetson and other embedded edge-compute hardware platforms.
 
 **[Learn more about NEPI Engine](https://nepi.com/)**
+## Software Release Process
+The latest NEPI major software version releases are provided under both commercial and open-source licenses from Numurus.  Version patches provided under NEPI commercial licenses.  While Numurus accepts community contributions to the NEPI Engine open-source project, contributors must submit a signed CLA before contributing code.
+<p align="center">
+<img src="http://nepi.com/wp-content/uploads/NEPI-Software-Release-Process_040224b.png" width="400px">
+</p>
 
 ## Get Involved
 The best way to get involved is to contribute to NEPI-Engine source code and documentation. Contributions in the form of pull requests are gladly accepted as long as we have a signed Contributor License Agreement from you or your organization. Just download the relevant agreement and follow the instructions:
