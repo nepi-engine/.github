@@ -16,14 +16,14 @@ A NEPI-enabled device provides the complete NEPI Engine suite of tools and appli
 
 NEPI Engine setup and source code is distributed across two top-level repositories:
 
-- [nepi_rootfs_tools](https://github.com/nepi-engine/nepi_rootfs_tools) - Collection of scripts and documentation for preparing a base NEPI Engine root filesystem. This includes setting up for the NEPI fully redundant system image software update scheme and installing all dependencies (including platform-specific dependencies where applicable). Start here if you are bringing up a system from scratch... note that you'll need to switch to the appropriate ROS 1 or ROS 2 branch immediately, as detailed in the default branch README.
-
 - [nepi_engine_ws](https://github.com/nepi-engine/nepi_engine_ws) - Superproject for all NEPI Engine source code, including hardware drivers, ROS-based SDK components, user interfaces, and edge-side NEPI Connect components. Source code is organized as a collection of git submodules below this superproject. Building and running this software depends on a properly prepared root filesystem, as covered by _nepi_rootfs_tools_.
 
 Some other stand-alone repositories may be useful depending on your needs
 - [nepi_ros_interfaces](https://github.com/nepi-engine/nepi_ros_interfaces) - Collection of NEPI Engine custom ROS messages and services. Included as part of _nepi_engine_ws_, but if you are only trying to interact with an existing NEPI Engine system via the ROS interface, this repository can be included in your own workspace, built, and sourced to provide these message and service objects to the rest of your application.
 
-- [nepi_sample_auto_scripts](https://github.com/nepi-engine/nepi_sample_auto_scripts) - Large and growing collection of NEPI Engine automation scripts that provide useful functionality and examples for the powerful NEPI Engine Automation Manager. Typically these scripts are deployed as-is to the NEPI storage partition (i.e., user partition) and/or used as references when developing new scripts. 
+- [nepi_sample_auto_scripts](https://github.com/nepi-engine/nepi_sample_auto_scripts) - Large and growing collection of NEPI Engine automation scripts that provide useful functionality and examples for the powerful NEPI Engine Automation Manager. Typically these scripts are deployed as-is to the NEPI storage partition (i.e., user partition) and/or used as references when developing new scripts.
+
+- [nepi_rootfs_tools](https://github.com/nepi-engine/nepi_rootfs_tools) - Collection of scripts and documentation for preparing a base NEPI Engine root filesystem. This includes setting up for the NEPI fully redundant system image software update scheme and installing all dependencies (including platform-specific dependencies where applicable). Start here if you are bringing up a system from scratch... note that you'll need to switch to the appropriate ROS 1 or ROS 2 branch immediately, as detailed in the default branch README.
 
 ## Get Involved
 The best way to get involved is to contribute to NEPI-Engine source code and documentation. While Numurus accepts community contributions to the NEPI Engine open-source project, contributors must submit a signed CLA before contributing code. Contributions in the form of pull requests are gladly accepted as long as we have a signed Contributor License Agreement from you or your organization. Just download the relevant agreement and follow the instructions:
