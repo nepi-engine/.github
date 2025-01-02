@@ -23,7 +23,7 @@ Some other stand-alone repositories may be useful depending on your needs
 
 - [nepi_drivers](https://github.com/nepi-engine/nepi_drivers) - Collection of NEPI driver interfaces for sensors and control devices. These driver interfaces abstract the hardware interface into NEPI standard interfaces allowing downstream applications to interact with the hardware without needing to know any specific details about the specific hardware interfaces.
 
-- [nepi_apps](https://github.com/nepi-engine/nepi_drivers) - Collection of NEPI applications that expand the capabilities and features of the base NEPI software environment.
+- [nepi_apps](https://github.com/nepi-engine/nepi_apps) - Collection of NEPI applications that expand the capabilities and features of the base NEPI software environment.
 
 - [nepi_sample_auto_scripts](https://github.com/nepi-engine/nepi_sample_auto_scripts) - Collection of NEPI Engine automation scripts that provide useful functionality and examples for the powerful NEPI Engine Automation Manager. Typically these scripts are deployed as-is to the NEPI storage partition (i.e., user partition) and/or used as references when developing new scripts.
 
