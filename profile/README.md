@@ -27,7 +27,7 @@ The nepi_engine_ws includes the following nepi component repos
 
 - [nepi_ai_frameworks](https://github.com/nepi-engine/nepi_ai_frameworks) - Collection of NEPI ai framework interfaces for loading and running ai detection models.
 
-- [nepi_sample_auto_scripts](https://github.com/nepi-engine/nepi_auto_scripts) - Collection of NEPI Engine automation scripts that provide useful functionality and examples for the powerful NEPI Engine Automation Manager. Typically these scripts are deployed as-is to the NEPI storage partition (i.e., user partition) and/or used as references when developing new scripts.
+- [nepi_auto_scripts](https://github.com/nepi-engine/nepi_auto_scripts) - Collection of NEPI Engine automation scripts that provide useful functionality and examples for the powerful NEPI Engine Automation Manager. Typically these scripts are deployed as-is to the NEPI storage partition (i.e., user partition) and/or used as references when developing new scripts.
 
 - [nepi_3rd_party](https://github.com/nepi-engine/nepi_3rd_party) - Collection of 3rd party provided repositories used by the NEPI Engine system.  
   
