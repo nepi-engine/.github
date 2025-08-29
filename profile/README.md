@@ -3,6 +3,21 @@ This repository contains documentation and tools for getting started with NEPI E
 
 **[Learn more about NEPI Engine](https://nepi.com/)**
 
+## Clone the NEPI Engine Repo
+Clone the 'main' branch:
+
+    git clone git@github.com:nepi-engine/nepi_engine_ws.git 
+    cd nepi_engine_ws
+    git checkout main
+    git submodule update --init --recursive
+
+Or, clone the 'development' branch:
+
+    git clone git@github.com:nepi-engine/nepi_engine_ws.git 
+    cd nepi_engine_ws
+    git checkout develop
+    git submodule update --init --recursive
+
 ## NEPI Engine Architecture
 
 A NEPI-enabled device provides the complete NEPI Engine suite of tools and applications. Most of these components can be enabled and disabled through system configuration, and many can also be started and stopped at run-time as needed.
@@ -28,19 +43,6 @@ The nepi_engine_ws includes the following nepi component repos
 
 - [nepi_3rd_party](https://github.com/nepi-engine/nepi_3rd_party) - Collection of 3rd party provided repositories used by the NEPI Engine system.  
 
-
-## Clone the NEPI Engine Repo
-git clone git@github.com:nepi-engine/nepi_engine_ws.git 
-cd nepi_engine_ws
-git checkout main
-git submodule update --init --recursive
-
-Or, clone the development branch
-
-git clone git@github.com:nepi-engine/nepi_engine_ws.git 
-cd nepi_engine_ws
-git checkout develop
-git submodule update --init --recursive
 
 ## Get Involved
 The best way to get involved is to contribute to NEPI-Engine source code and documentation. While Numurus accepts community contributions to the NEPI Engine open-source project, contributors must submit a signed CLA before contributing code. Contributions in the form of pull requests are gladly accepted as long as we have a signed Contributor License Agreement from you or your organization. Just download the relevant agreement and follow the instructions:
