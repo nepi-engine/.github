@@ -11,6 +11,7 @@ See NEPI Docker and PC setup instructions at
 ## NEPI Repo Cloning
 Clone the 'main' branch:
 
+    cd ~/
     git clone git@github.com:nepi-engine/nepi_engine_ws.git 
     cd nepi_engine_ws
     git checkout main
@@ -18,6 +19,7 @@ Clone the 'main' branch:
 
 Or, clone the 'development' branch:
 
+    cd ~/
     git clone git@github.com:nepi-engine/nepi_engine_ws.git 
     cd nepi_engine_ws
     git checkout develop
