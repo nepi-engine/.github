@@ -25,6 +25,11 @@ Or, clone the 'development' branch:
     git checkout develop
     git submodule update --init --recursive
 
+If you just want to pull the latest updates to an existing cloned NEPI repo:
+
+    cd nepi_engine_ws
+    git pull --recurse-submodules
+
 ## NEPI Engine Architecture
 
 A NEPI-enabled device provides the complete NEPI Engine suite of tools and applications. Most of these components can be enabled and disabled through system configuration, and many can also be started and stopped at run-time as needed.
