@@ -27,7 +27,7 @@ Or, clone the 'development' branch:
 
 If you just want to pull the latest updates to an existing cloned NEPI repo:
 
-    cd nepi_engine_ws
+    cd ~/nepi_engine_ws
     git pull --recurse-submodules
 
 ## NEPI Engine Architecture
