@@ -6,7 +6,7 @@ This repository contains documentation and tools for getting started with NEPI E
 ## NEPI Setup Instructions
 
 See NEPI Docker and PC setup instructions at
-[nepi_setup_instructions](https://github.com/nepi-engine/nepi_setup)
+**[nepi_setup_instructions](https://github.com/nepi-engine/nepi_setup)**
 
 ## NEPI Repo Cloning
 Clone the 'main' branch:
