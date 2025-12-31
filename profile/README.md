@@ -9,6 +9,11 @@ See NEPI Docker and PC setup instructions at
 **[nepi_setup_instructions](https://github.com/nepi-engine/nepi_setup)**
 
 ## NEPI Repo Cloning
+**NOTE:** Before cloning the NEPI Repo below, you should first setup your
+development system by following the "NEPI_DEV_PC_SETUP" instructions available
+in the NEPI Setup Repo at: 
+**[nepi_setup_instructions](https://github.com/nepi-engine/nepi_setup)**
+
 Clone the 'main' branch:
 
     cd ~/
