@@ -1,5 +1,5 @@
 # NEPI-Engine
-This repository contains documentation and tools for getting started with NEPI Engine, a full-featured edge-AI and automation software platform for NVIDIA Jetson and other embedded edge-compute hardware platforms.
+This repository contains documentation and tools for getting started with NEPI Engine, a full-featured software system for rapid prototyping and develompment of edge-AI and automation on NVIDIA Jetson and other embedded edge-compute hardware platforms.
 
 **[Learn more about NEPI Engine](https://nepi.com/)**
 
@@ -43,13 +43,14 @@ The entire NEPI software source code, including the nepi engine system, nepi app
 
 - [nepi_engine_ws](https://github.com/nepi-engine/nepi_engine_ws) - Superproject for all NEPI Engine source code, including hardware drivers, ROS-based SDK components, user interfaces, and edge-side NEPI Connect components. Source code is organized as a collection of git submodules below this superproject. Building and running this software depends on a properly prepared root filesystem, as covered by _nepi_rootfs_tools_.
 
-The nepi_engine_ws includes the following nepi component repos
+The nepi_engine_ws includes the following nepi engine base component repos
 - [nepi_engine](https://github.com/nepi-engine/nepi_engine) - The complete NEPI engine operating environment including NEPI SDK, NEPI APIs, and NEPI Managers.
   
 - [nepi_rui](https://github.com/nepi-engine/nepi_rui) -  NEPI's device-hosted Resident User Interface (RUI) system that provides browser-based js/react webserver interface to the NEPI Enging system.
   
 - [nepi_interfaces](https://github.com/nepi-engine/nepi_interfaces) - Collection of NEPI Engine custom ROS or ROS2 messages and services depending on which branch you checkout. Included as part of _nepi_engine_ws_, but if you are only trying to interact with an existing NEPI Engine system via the ROS interface, this repository can be included in your own workspace, built, and sourced to provide these message and service objects to the rest of your application.
 
+The nepi_engine_ws includes the following nepi engine add on component repos
 - [nepi_drivers](https://github.com/nepi-engine/nepi_drivers) - Collection of NEPI driver interfaces for sensors and control devices. These driver interfaces abstract the hardware interface into NEPI standard interfaces allowing downstream applications to interact with the hardware without needing to know any specific details about the specific hardware interfaces.
 
 - [nepi_apps](https://github.com/nepi-engine/nepi_apps) - Collection of NEPI applications that expand the capabilities and features of the base NEPI software environment.
