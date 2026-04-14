@@ -44,7 +44,7 @@ A NEPI-enabled device provides the complete NEPI Engine suite of tools and appli
 #### NEPI Engine Super-Project Repo
 The entire NEPI software source code, including the nepi engine system, nepi applications, ai frameworks, drivers, and build scripts, is available in the top-level "nepi_engine_ws" repository:
 
-- [nepi_engine_ws](https://github.com/nepi-engine/nepi_engine_ws) - Superproject for all NEPI Engine source code, including hardware drivers, ROS-based SDK components, user interfaces, and edge-side NEPI Connect components. Source code is organized as a collection of git submodules below this superproject. Building and running this software depends on a properly prepared root filesystem, as covered by _nepi_rootfs_tools_.
+- [nepi_engine_ws](https://github.com/nepi-engine/nepi_engine_ws) - Super-project for all NEPI Engine source code, including hardware drivers, ROS-based SDK components, user interfaces, and edge-side NEPI Connect components. Source code is organized as a collection of git submodules below this superproject. Building and running this software depends on a properly prepared root filesystem, as covered by _nepi_rootfs_tools_.
 
 #### NEPI Engine Submodules
 
