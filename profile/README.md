@@ -5,8 +5,40 @@ This repository contains documentation and tools for getting started with NEPI E
 
 ## NEPI Setup Instructions
 
-See NEPI Docker and PC setup instructions at
-**[nepi_setup_instructions](https://github.com/nepi-engine/nepi_setup)**
+### NEPI Docker Demo Setup Instructions
+
+For a quick demo of NEPI Software Container for experienced Linux users, see the instructions:
+[NEPI_DOCKER_DEMO_SETUP](https://github.com/nepi-engine/nepi_setup/blob/main/NEPI_CONTAINER_BUILD.md)
+
+### NEPI Docker Lite Setup Instructions
+
+For automated setup if NEPI Software Container on a Linux Ubuntu PC, see the instructions:
+[NEPI_DOCKER_LITE_SETUP](https://github.com/nepi-engine/nepi_setup/blob/main/NEPI_DOCKER_LITE_SETUP.md)
+
+### NEPI Docker Full Setup Instructions
+
+For automated setup if NEPI Software Container on a Linux Ubuntu embedded processor (Nvidia Jetson, RPI...) see the instructions:
+[NEPI_DOCKER_FULL_SETUP](https://github.com/nepi-engine/nepi_setup/blob/main/NEPI_DOCKER_FULL_SETUP.md)
+
+### NEPI Remote Setup Instructions
+
+For automated setup of remote interfacing to a NEPI enabled device on a remote Linux Ubuntu system see the instructions:
+[NEPI_REMTOE_SETUP](https://github.com/nepi-engine/nepi_setup/blob/main/NEPI_REMTOE_SETUP.md)
+
+### NEPI Software Build Instructions
+
+For NEPI Software Build and Customization instructions:
+[NEPI_SOFTWARE_BUILD](https://github.com/nepi-engine/nepi_setup/blob/main/NEPI_SOFTWARE_BUILD.md)
+
+### NEPI Container Build Instructions
+
+For NEPI Container Build and Customization instructions:
+[NEPI_CONTAINER_BUILD](https://github.com/nepi-engine/nepi_setup/blob/main/NEPI_CONTAINER_BUILD.md)
+
+## ADDITIONAL INSTRUCTIONS AND RESOURCES
+Find the NEPI documentation, tuturials, videos, and the NEPI community forum at NEPI.com:
+[NEPI Website](https://www.nepi.com)
+
 
 ## NEPI Repo Cloning
 **NOTE:** Before cloning the NEPI Repo below, you should first setup your
