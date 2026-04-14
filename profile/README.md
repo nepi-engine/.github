@@ -24,7 +24,7 @@ For automated setup of NEPI Software Container on a Linux Ubuntu embedded proces
 ### NEPI Remote Setup Instructions
 
 For automated setup of remote interfacing to a NEPI enabled device on a remote Linux Ubuntu system see the instructions:
-[NEPI_REMTOE_SETUP](https://github.com/nepi-engine/nepi_setup/blob/main/NEPI_REMTOE_SETUP.md)
+[NEPI_REMTOE_SETUP](https://github.com/nepi-engine/nepi_setup/blob/main/NEPI_REMOTE_SETUP.md)
 
 ### NEPI Software Build Instructions
 
