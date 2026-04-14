@@ -34,6 +34,8 @@ If you just want to pull the latest updates to an existing cloned NEPI repo:
 
     cd ~/nepi_engine_ws
     git pull --recurse-submodules
+    git submodule foreach --recursive "git checkout main && git pull origin main"
+
 
 ## NEPI Engine Architecture
 
