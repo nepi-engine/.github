@@ -1,7 +1,8 @@
-# NEPI-Engine
-This repository contains documentation and tools for getting started with NEPI Engine, a full-featured software system for rapid prototyping and develompment of edge-AI and automation on NVIDIA Jetson and other embedded edge-compute hardware platforms.
+# NEPI Software
+This repository contains documentation and tools for getting started with NEPI Software, a full-featured software system for rapid prototyping and develompment of edge-AI and automation on NVIDIA Jetson and other embedded edge-compute hardware platforms.
 
-**[Learn more about NEPI Engine](https://nepi.com/)**
+Find the NEPI documentation, tuturials, videos, and the NEPI discord and community forums at NEPI.com:
+[NEPI Website](https://www.nepi.com)
 
 ## NEPI Setup Instructions
 
@@ -34,10 +35,6 @@ For NEPI Software Build and Customization instructions:
 
 For NEPI Container Build and Customization instructions:
 [NEPI_CONTAINER_BUILD](https://github.com/nepi-engine/nepi_setup/blob/main/NEPI_CONTAINER_BUILD.md)
-
-## ADDITIONAL INSTRUCTIONS AND RESOURCES
-Find the NEPI documentation, tuturials, videos, and the NEPI community forum at NEPI.com:
-[NEPI Website](https://www.nepi.com)
 
 
 ## NEPI Repo Cloning
