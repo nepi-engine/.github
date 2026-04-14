@@ -47,16 +47,13 @@ The entire NEPI software source code, including the nepi engine system, nepi app
 
 #### NEPI Engine Submodules
 
-The nepi_engine_ws includes the following nepi engine base component repos
+The nepi_engine_ws includes the following submodule component repos
 - [nepi_engine](https://github.com/nepi-engine/nepi_engine) - The complete NEPI engine operating environment including NEPI SDK, NEPI APIs, and NEPI Managers.
   
 - [nepi_rui](https://github.com/nepi-engine/nepi_rui) -  NEPI's device-hosted Resident User Interface (RUI) system that provides browser-based js/react webserver interface to the NEPI Enging system.
   
 - [nepi_interfaces](https://github.com/nepi-engine/nepi_interfaces) - Collection of NEPI Engine custom ROS or ROS2 messages and services depending on which branch you checkout. Included as part of _nepi_engine_ws_, but if you are only trying to interact with an existing NEPI Engine system via the ROS interface, this repository can be included in your own workspace, built, and sourced to provide these message and service objects to the rest of your application.
 
-- [nepi_3rd_party](https://github.com/nepi-engine/nepi_3rd_party) - Collection of 3rd party provided repositories used by the NEPI Engine system.
-
-The nepi_engine_ws includes the following nepi engine add on component repos
 - [nepi_drivers](https://github.com/nepi-engine/nepi_drivers) - Collection of NEPI driver interfaces for sensors and control devices. These driver interfaces abstract the hardware interface into NEPI standard interfaces allowing downstream applications to interact with the hardware without needing to know any specific details about the specific hardware interfaces.
 
 - [nepi_apps](https://github.com/nepi-engine/nepi_apps) - Collection of NEPI applications that expand the capabilities and features of the base NEPI software environment.
@@ -65,7 +62,9 @@ The nepi_engine_ws includes the following nepi engine add on component repos
 
 - [nepi_auto_scripts](https://github.com/nepi-engine/nepi_auto_scripts) - Collection of NEPI Engine automation scripts that provide useful functionality and examples for the powerful NEPI Engine Automation Manager. Typically these scripts are deployed as-is to the NEPI storage partition (i.e., user partition) and/or used as references when developing new scripts.
 
+- [nepi_3rd_party](https://github.com/nepi-engine/nepi_3rd_party) - Collection of 3rd party provided repositories used by the NEPI Engine system.
 
+- [nepi_setup](https://github.com/nepi-engine/nepi_setup) - Collection of scripts and resources for setting up NEPI remote, host, and system environments.
 
 
 ## Get Involved
