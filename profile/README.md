@@ -18,7 +18,7 @@ For automated setup of NEPI Software Container on a Linux Ubuntu PC, see the ins
 
 ### NEPI Docker Full Setup Instructions
 
-For automated setup of NEPI Software Container on a Linux Ubuntu embedded processor (Nvidia Jetson, RPI...) see the instructions:
+For automated setup of NEPI Software Container on a Linux Ubuntu embedded processor (NVIDIA Jetson, RPI...) see the instructions:
 [NEPI_DOCKER_FULL_SETUP](https://github.com/nepi-engine/nepi_setup/blob/main/NEPI_DOCKER_FULL_SETUP.md)
 
 ### NEPI Remote Setup Instructions
