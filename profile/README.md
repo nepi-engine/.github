@@ -37,13 +37,15 @@ If you just want to pull the latest updates to an existing cloned NEPI repo:
     git submodule foreach --recursive "git checkout main && git pull origin main" 2> /dev/null
 
 
-## NEPI Engine Architecture
+## NEPI Engine Source-Code Overview
 
 A NEPI-enabled device provides the complete NEPI Engine suite of tools and applications. Most of these components can be enabled and disabled through system configuration, and many can also be started and stopped at run-time as needed.
 
 The entire NEPI software source code, including the nepi engine system, nepi applications, ai frameworks, drivers, and build scripts, is available in the top-level "nepi_engine_ws" repository:
 
 - [nepi_engine_ws](https://github.com/nepi-engine/nepi_engine_ws) - Superproject for all NEPI Engine source code, including hardware drivers, ROS-based SDK components, user interfaces, and edge-side NEPI Connect components. Source code is organized as a collection of git submodules below this superproject. Building and running this software depends on a properly prepared root filesystem, as covered by _nepi_rootfs_tools_.
+
+#### NEPI Engine Submodules
 
 The nepi_engine_ws includes the following nepi engine base component repos
 - [nepi_engine](https://github.com/nepi-engine/nepi_engine) - The complete NEPI engine operating environment including NEPI SDK, NEPI APIs, and NEPI Managers.
