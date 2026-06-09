@@ -4,6 +4,10 @@ This repository contains documentation and tools for getting started with NEPI S
 Find the NEPI documentation, tuturials, videos, and the NEPI discord and community forums at NEPI.com:
 [NEPI Website](https://www.nepi.com)
 
+Prebuilt NEPI docker images are available for Nvidia Jetson, AMD64, ARM64, and RPI devices at:
+[NEPI_DOCKER_HUB](https://hub.docker.com/repository/docker/numurusinc/nepi)
+
+
 ## NEPI Setup Instructions
 
 ### NEPI Docker Demo Setup Instructions
