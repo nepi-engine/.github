@@ -34,12 +34,6 @@ For automated setup of remote interfacing to a NEPI enabled device on a remote L
 For NEPI Software Build and Customization instructions:
 [NEPI_SOFTWARE_BUILD](https://github.com/nepi-engine/nepi_setup/blob/main/NEPI_SOFTWARE_BUILD.md)
 
-### NEPI Container Build Instructions
-
-For NEPI Container Build and Customization instructions:
-[NEPI_CONTAINER_BUILD](https://github.com/nepi-engine/nepi_setup/blob/main/NEPI_CONTAINER_BUILD.md)
-
-
 ## NEPI Repo Cloning
 **NOTE:** Before cloning the NEPI Repo below, you should first setup your
 development system by following the "NEPI_DEV_PC_SETUP" instructions available
